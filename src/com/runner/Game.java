@@ -155,7 +155,7 @@ public class Game extends Canvas implements Runnable {
 		g.setColor(Color.BLACK);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
 
-		/* Render based on game state */
+		/* Render by game state */
 		switch (state) {
 			case Menu:
 			case ConfirmExit:
